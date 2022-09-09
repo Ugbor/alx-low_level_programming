@@ -1,3 +1,2 @@
 #!/bin/bash
-my first c programme README.md
 gcc -E $CFILE -o c
