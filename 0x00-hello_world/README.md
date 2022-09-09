@@ -1,1 +1,1 @@
- a script that runs a C file
+my first C knowledge
