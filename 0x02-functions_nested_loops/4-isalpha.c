@@ -1,31 +1,49 @@
-#include "main.h"                                                                                                                                    
+#include "main.h"
 
-/**                                                                                                                                                  
+#include <ctype.h>
 
- * _isalpha - function to check if c is a letter, lowercase or uppercase.                                                                            
 
- * @c: is the int that will use for the argument of the function                                                                                     
 
- * Return: 0                                                                                                                                         
+/**
 
- */                                                                                                                                                  
+ * _isalpha - function that checks for alphabetic character
 
-int _isalpha(int c)                                                                                                                                  
+ *
 
-{                                                                                                                                                    
+ * @c: char type letter
 
-        if ((c >= 'a' && c <= 'z') || ( c >= 'A' && c <= 'Z'))                                                                                       
+ *
 
-        {                                                                                                                                            
+ * Return: return 0 on success and 1 on fail
 
-                return (1);                                                                                                                          
+ */
 
-        }                                                                                                                                            
 
-        else                                                                                                                                         
 
-                return (0);                                                                                                                          
+int _isalpha(int c)
 
-                                                                                                                                                     
+{
+
+	int i = isalpha(c);
+
+
+
+	if (i > 0)
+
+	{
+
+		return (1);
+
+	}
+
+
+
+	else
+
+	{
+
+		return (0);
+
+	}
 
 }
