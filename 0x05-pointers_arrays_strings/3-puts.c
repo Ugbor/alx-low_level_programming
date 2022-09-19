@@ -4,11 +4,11 @@
  *_puts - prints a string
  * @str: string to print
  *
- * Description: prints a string
- * on success: returns no error
+ * Description: A function that prints a strin
+ * Return: Always 0.
  */
 
-void _puts(char *str)
+int main(void)
 {
 	int i = 0;
 
