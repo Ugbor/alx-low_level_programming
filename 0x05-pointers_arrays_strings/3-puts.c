@@ -1,14 +1,15 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  *_puts - prints a string
  * @str: string to print
  *
- * Description: A function that prints a strin
- * Return: Always 0.
+ * Description: prints a string
+ * On success: returns no error
  */
 
-int main(void)
+void _puts(char *str)
 {
 	int i = 0;
 
@@ -19,3 +20,4 @@ int main(void)
 	}
 	putchar(10);
 }
+
