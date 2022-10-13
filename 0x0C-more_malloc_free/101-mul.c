@@ -14,6 +14,7 @@ int is_digit(char *s)
 
 	while (s[i])
 	{
+
 		if (s[i] < '0' || s[i] > '9')
 			return (0);
 		i++;
@@ -43,7 +44,7 @@ int _strlen(char *s)
  */
 void errors(void)
 {
-	printf("error\n");
+	printf("Error\n");
 	exit(98);
 }
 
@@ -97,4 +98,3 @@ int main(int argc, char *argv[])
 	free(result);
 	return (0);
 }
-
